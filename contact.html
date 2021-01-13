@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MyWeb</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler bg-secondery" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">About-Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  active" href="contact.html" tabindex="-1" aria-disabled="true">Contact-us</a>
+                        </li>
+                    </ul>
+                    <form><span style="color: white;">Login</span>
+                        <input type="email" id="exampleDropdownFormEmail1" placeholder="email@example.com" class="float-sm-left float-md-left float-lg-left">
+                        <input type="password" id="exampleDropdownFormPassword1" placeholder="Password" class="float-sm-left float-md-left float-lg-left"> &nbsp
+                        <button type="submit" class="btn btn-primary btn-small float-sm-end float-md-end">Sign in</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item Item"><a href="index.html">Home</a>&nbsp &nbsp
+                    <a href="about.html">About-Us</a></li>
+            </ol>
+        </nav>
+
+    </div>
+    <header class="Header">
+        <div class="container">
+            <div class="row">
+                <div class="icons">
+                    <i class="zoom fab fa-twitter-square "></i><a href="https://twitter.com" target="_blank">&nbsp;Twitter &nbsp;</a>
+                    <i class="zoom fab fa-facebook-square"></i><a href="https://facebook.com" target="_blank">&nbsp;Facebook &nbsp;</a>
+                    <i class="zoom fab fa-instagram"></i><a href="htts://instagram.com" target="_blank">&nbsp;Instagram&nbsp;</a>
+                    <i class="zoom fab fa-youtube-square"></i><a href="https://youtube.com" target="_blank"> &nbsp;youtube &nbsp;</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section pb-5">
+        <h2 class="section-heading h1 pt-4 pb-4 contacth1">Contact us</h2>
+        <div class="row">
+            <div class="col-lg-5 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-header blue accent-1">
+                            <h3>
+                                <h3><i class="fas fa-envelope"></i> Deixe sua opinião:</h3>
+                            </h3>
+                        </div>
+                        <p>Sua opinião e muito importante para nós !</p>
+                        <br>
+                        <div class="md-form">
+                            <i class="fas fa-user prefix grey-text"></i>
+                            <input type="text" id="form-name" class="form-control">
+                            <label for="form-name">Your name</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fas fa-envelope prefix grey-text"></i>
+                            <input type="text" id="form-email" class="form-control">
+                            <label for="form-email">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fas fa-tag prefix grey-text"></i>
+                            <input type="text" id="form-Subject" class="form-control">
+                            <label for="form-Subject">Subject</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fas fa-pencil-alt prefix grey-text"></i>
+                            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                            <label for="form-text"></label>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button class="btn btn-light-blue">Submit</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-7">
+
+                <!--Google map-->
+                <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                    <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <br>
+                <!--Buttons-->
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                        <p>Anápolis, Go</p>
+                        <p>Brazil</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                        <p>(62) 9130 - 4986</p>
+                        <p>Mon - Fri, 8:00-22:00</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                        <p>alex2534@outlook.com</p>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.1-->
+
+
+
+    <footer class=" Footer bg-dark py-4 flex-shrink-0 Footer ">
+        <div class="content-wrap text-center text-color-white">
+            <span class="icon-stack bg">
+                <a href="https://twitter.com/" target="_blank">
+                <img class="imgFoot zoom" src="tew.jpg" alt="">
+                <span class="fotterpat">Twitter</span>
+            </a>
+            </span> &nbsp; &nbsp;
+            <span class="icon-stack">
+                <a href="https://www.facebook.com/ " target="_blank">
+                <img class="imgFoot zoom" src="Face.jpg" alt="">
+                <span class="fotterpat">Facebook</span>
+            </a>
+            </span> &nbsp; &nbsp;
+            <span class="icon-stack">
+                <a href="https://www.instagram.com/" target="_blank">
+                <img class="imgFoot zoom" src="insta.jpg" alt="">
+            </span><span class="fotterpat">Instagram</span>
+            </a>
+            &nbsp; &nbsp;
+            <span class="icon-stack">
+            <a href="https://www.youtube.com/" target="_blank">
+            <img class="imgFoot zoom"  src="youtube.jpg" alt=""> 
+            </span> <span class="fotterpat">youtube</span></a>
+
+        </div>
+    </footer>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
