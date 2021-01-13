@@ -196,7 +196,6 @@ body {
     flex: auto;
     float: right;
     margin: auto;
-    padding: rem;
 }
 
 .card6 {
@@ -271,6 +270,10 @@ body {
 }
 
 .lastT {
+    padding: 2rem;
+}
+
+.InsideP {
     padding: 2rem;
 }
 
