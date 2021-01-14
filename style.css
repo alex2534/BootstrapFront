@@ -12,6 +12,16 @@ body {
 .Header {
     flex: none;
     float: right;
+    padding-top: 6rem;
+}
+
+.contactHeader {
+    flex: auto;
+    float: right;
+}
+
+.bread {
+    padding-top: 4rem;
 }
 
 #header {
