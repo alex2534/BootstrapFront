@@ -40,6 +40,10 @@ body {
     font-size: medium;
 }
 
+.anima {
+    padding-top: -1rem;
+}
+
 .icons {
     position: relative;
     flex: box;
