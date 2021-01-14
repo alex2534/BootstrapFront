@@ -12,7 +12,7 @@ body {
 .Header {
     flex: none;
     float: right;
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 .contactHeader {
@@ -26,6 +26,19 @@ body {
 
 #header {
     padding-top: -6rem;
+}
+
+.photoconatainer {
+    padding: 1rem;
+}
+
+body {
+    text-align: center;
+    padding-top: 10em;
+}
+
+* {
+    text-decoration: none;
 }
 
 #ClearFix {
