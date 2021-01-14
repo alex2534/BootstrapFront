@@ -28,10 +28,6 @@ body {
     padding-top: -6rem;
 }
 
-.photoconatainer {
-    padding-left: 0%;
-}
-
 #ClearFix {
     padding-top: 5rem;
 }
@@ -204,12 +200,6 @@ body {
     position: absolute;
     flex: auto;
     float: right;
-}
-
-.insideP {
-    flex: auto;
-    float: right;
-    margin: auto;
 }
 
 .card6 {
