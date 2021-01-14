@@ -28,6 +28,10 @@ body {
     padding-top: -6rem;
 }
 
+.photoconatainer {
+    padding-left: 0%;
+}
+
 #ClearFix {
     padding-top: 5rem;
 }
